@@ -10,8 +10,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
-    color: white;
+    background-color: #fb6f92;
+    color: #333;
 }
 
 header .logo {
@@ -33,12 +33,12 @@ header .nav-icons {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #444;
+    background-color: #ff8fab;
     padding: 10px 0;
 }
 
 nav a {
-    color: white;
+    color: #333;
     text-decoration: none;
     margin: 0 15px;
 }
@@ -52,7 +52,7 @@ nav a {
     display: flex;
     justify-content: center;
     padding: 20px 0;
-    background-color: #f4f4f4;
+    background-color: #ffb3c6;
 }
 
 .categories a {
@@ -127,12 +127,12 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #333;
-    color: white;
+    background-color: #ff8fab;
+    color: #333;
 }
 
 footer a {
-    color: white;
+    color: #333;
     text-decoration: none;
 }
 
