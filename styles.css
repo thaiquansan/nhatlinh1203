@@ -71,11 +71,11 @@ nav a {
     margin: 1.5%;
 }
 
-.featured-products .media-container, .product-detail .product-images {
+.featured-products .media-container, .product-detail .product-images, .related-products .media-container {
     position: relative;
 }
 
-.featured-products .product-media, .product-detail .product-media {
+.featured-products .product-media, .product-detail .product-media, .related-products .product-media {
     width: 100%;
     height: 400px;
     display: block;
@@ -142,6 +142,7 @@ footer .contact-info, .footer .policies, .footer .newsletter {
 }
 
 .newsletter input {
+    margin-left: 10px;
     padding: 10px;
     width: calc(100% - 120px);
 }

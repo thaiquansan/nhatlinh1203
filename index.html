@@ -29,7 +29,7 @@
     <main>
         <!-- Banner -->
         <section class="banner">
-            <img src="banner.jpg" alt="Featured">
+            <img src="assets/banner.jpg" alt="Featured">
         </section>
         
         <!-- Categories -->
@@ -45,22 +45,22 @@
             <h2>Sản phẩm nổi bật</h2>
             <div class="product">
                 <div class="media-container">
-                    <img src="product1.jpg" alt="Product 1" class="product-media">
-                    <video src="product1.mp4" controls class="product-media" style="display: none;"></video>
+                    <img src="assets/product1.jpg" alt="Product 1" class="product-media">
+                    <video src="assets/product1.mp4" controls class="product-media" style="display: none;"></video>
                     <button class="next-btn" onclick="switchMedia(this)">⮞</button>
                 </div>
             </div>
             <div class="product">
                 <div class="media-container">
-                    <img src="product2.jpg" alt="Product 2" class="product-media">
-                    <video src="product2.mp4" controls class="product-media" style="display: none;"></video>
+                    <img src="assets/product2.jpg" alt="Product 2" class="product-media">
+                    <video src="assets/product2.mp4" controls class="product-media" style="display: none;"></video>
                     <button class="next-btn" onclick="switchMedia(this)">⮞</button>
                 </div>
             </div>
             <div class="product">
                 <div class="media-container">
-                    <img src="product3.jpg" alt="Product 3" class="product-media">
-                    <video src="product3.mp4" controls class="product-media" style="display: none;"></video>
+                    <img src="assets/product3.jpg" alt="Product 3" class="product-media">
+                    <video src="assets/product3.mp4" controls class="product-media" style="display: none;"></video>
                     <button class="next-btn" onclick="switchMedia(this)">⮞</button>
                 </div>
             </div>
@@ -69,9 +69,9 @@
         <!-- Product Detail -->
         <section class="product-detail">
             <div class="product-images">
-                <img src="product-detail1.jpg" alt="Product Detail 1" class="product-media">
-                <img src="product-detail2.jpg" alt="Product Detail 2" class="product-media" style="display: none;">
-                <video src="product-detail.mp4" controls class="product-media" style="display: none;"></video>
+                <img src="assets/product-detail1.jpg" alt="Product Detail 1" class="product-media">
+                <img src="assets/product-detail2.jpg" alt="Product Detail 2" class="product-media" style="display: none;">
+                <video src="assets/product-detail.mp4" controls class="product-media" style="display: none;"></video>
                 <button class="next-btn" onclick="switchMedia(this)">⮞</button>
             </div>
             <div class="product-info">
@@ -116,13 +116,19 @@
         <section class="related-products">
             <h2>Sản phẩm liên quan</h2>
             <div class="product">
-                <img src="related1.jpg" alt="Related 1">
+                <div class="media-container">
+                    <img src="assets/related1.jpg" alt="Related 1" class="product-media">
+                </div>
             </div>
             <div class="product">
-                <img src="related2.jpg" alt="Related 2">
+                <div class="media-container">
+                    <img src="assets/related2.jpg" alt="Related 2" class="product-media">
+                </div>
             </div>
             <div class="product">
-                <img src="related3.jpg" alt="Related 3">
+                <div class="media-container">
+                    <img src="assets/related3.jpg" alt="Related 3" class="product-media">
+                </div>
             </div>
         </section>
     </main>
@@ -135,9 +141,9 @@
             <p>Email: contact@localbrand.com</p>
         </div>
         <div class="policies">
-            <a href="#">Chính sách đổi trả</a>
-            <a href="#">Chính sách vận chuyển</a>
-            <a href="#">Chính sách bảo mật</a>
+            <p><a href="#">Chính sách đổi trả</a></p>
+            <p><a href="#">Chính sách vận chuyển</a></p>
+            <p><a href="#">Chính sách bảo mật</a></p>
         </div>
         <div class="newsletter">
             <input type="email" placeholder="Nhập email của bạn...">
