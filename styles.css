@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .search-bar {
+    flex: 1;
+    margin: 0 20px;
+    padding: 5px;
+}
+
+header .nav-icons {
+    display: flex;
+    gap: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #f4f4f4;
+}
+
+.categories a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.featured-products, .product-detail, .customer-feedback, .related-products {
+    padding: 20px;
+}
+
+.featured-products .product, .related-products .product {
+    display: inline-block;
+    width: 30%;
+    margin: 1.5%;
+}
+
+.featured-products .media-container, .product-detail .product-images {
+    position: relative;
+}
+
+.featured-products .product-media, .product-detail .product-media {
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+
+.next-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.product-detail {
+    display: flex;
+    gap: 20px;
+}
+
+.product-detail .product-images {
+    width: 50%;
+    height: 400px;
+}
+
+.product-detail .product-info {
+    width: 50%;
+}
+
+.product-info select, .product-info button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.customer-feedback .feedback {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.feedback .rating {
+    color: gold;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .contact-info, .footer .policies, .footer .newsletter {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: calc(100% - 120px);
+}
+
+.newsletter button {
+    padding: 10px;
+}
